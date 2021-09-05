@@ -1,0 +1,1 @@
+web: gunicorn B1812338_NguyenVietHao_app:app

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DulieuRa</title>
+</head>
+<body>
+    <div id="login-form-container">
+        <div class="card" style="width: 400px">
+            <div class="card-content">
+                <div class="media">
+                    <div class="is-size-4 has-text-centered" style="font-size: 35px;">
+                        {%if variety == 0%}
+                        <h1>Iris-setosa</h1>  
+
+                        {%elif variety == 1%}
+                        <h1>Iris-versicolor</h1>
+
+                        {%else%}
+                        <h1>Iris-virginica</h1>
+                        {%endif%}
+                    </div>
+                </div>
+                </br>
+                <form action="/">
+                    <div class="field">
+                        <button class="button is-fullwidth is-rounded is-success "style="font-size: 30px;">Retry</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
